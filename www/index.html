@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cinesiterapia</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="width">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="www/images/icons/Icon-Small.ico">
+<link rel="shortcut icon" href="www/images/icons/Icon-Small.png">
+<link rel="apple-touch-icon" href="www/images/icons/icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="www/images/icons/Icon-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="www/images/icons/icon@2x.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="www/images/icons/icon-72@2x.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="La articulación temporomandibular es la articulación que existe entre el hueso temporal y la mandíbula. En realidad son dos articulaciones, una a cada lado de la cabeza, que funcionan sincrónicamente. Es la única articulación móvil entre los huesos de la cabeza" /><meta name="temporomandibular, mandibula, cabeza, columna cervical" />
+<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+<script type="text/javascript" charset="utf-8" src="childbrowser.js"></script>
+<script type="text/javascript" charset="utf-8" src="GAPlugin.js"></script>
+<!--Tarazona Tour colors jquery mobile css-->
+<link rel="stylesheet" href="themes/fisios_cc.css" />
+<!-- jQuery Mobile Recent Stable Versions-->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css" /> 
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+  <script type="text/javascript" src="js/configs.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+<!--add-to-home-screen .js and .css-->  
+<script type="text/javascript">
+var addToHomeConfig = {
+	animationIn: 'bubble',
+	animationOut: 'drop',
+	lifespan:10000,
+	expire:2,
+	touchIcon:true,
+    returningVisitor: true,		// Show the message only to returning visitors (ie: don't show it the first time)
+	expire: 720,				// Show the message only once every 12 hours
+	message:'Para instalar esta app en su %device, pulse %icon y seleccione <strong>Añadir a pantalla de inicio</strong>.'
+};
+</script>
+<link rel="stylesheet" href="www/css/themes/add2home.css">
+<script type="application/javascript" src="www/js/add2home.js" charset="utf-8"></script>
+</head> 
+<body>     
+<div id="home" data-role="page">
+			<div data-role="content">
+<!--articulacion temporomandibular-->
+<div data-role="collapsible" data-collapsed="false" data-theme="a" data-content-theme="c">
+			<h3><div class="txtwrapper2">Articulacion Temporomandibular</div></h3>
+			<p>Selecciona sobre lo que quieres conocer acerca de esta area:</p>
+            <div data-role="collapsible" data-content-theme="f" style="background-image:url(themes/images/tm.png)">
+				<h3><div class="txtwrapper2">Anatomia/Biomecanica</div></h3>
+				<br/>
+				<ul data-role="listview" data-inset="true" data-theme="a">
+	<li><a href="fotos_atm.html#fotos_bio" rel="external"><img src="themes/images/glyphicons_011_camera_white.png" alt="Fotos" class="ui-li-icon"><div class="txtwrapper3">Fotos</div></a></li>
+					<li><a href="videos_atm.html#videos_bio" rel="external"><img src="themes/images/glyphicons_180_facetime_video_white.png" alt="Videos" class="ui-li-icon"><div class="txtwrapper3">Videos</div></a></li>
+					<li><a href="teoria_atm.html#teoria_bio" rel="external"><img src="themes/images/glyphicons_351_book_open_white.png" alt="Teoria" class="ui-li-icon"><div class="txtwrapper3">Teoria</div></a></li>
+				</ul>
+                <br/>
+			</div><!--cierro div collapsible 1-->
+            <div data-role="collapsible" data-content-theme="f" style="background-image:url(themes/images/hands.png)">
+				<h3><div class="txtwrapper2">Técnicas Manuales</div></h3>
+				<br/>
+				<ul data-role="listview" data-inset="true" data-theme="a">
+	<li><a href="fotos_atm.html#fotos_movi" rel="external"><img src="themes/images/glyphicons_011_camera_white.png" alt="Fotos" class="ui-li-icon"><div class="txtwrapper3">Fotos</div></a></li>
+					<li><a href="videos_atm.html#videos_movi" rel="external"><img src="themes/images/glyphicons_180_facetime_video_white.png" alt="Videos" class="ui-li-icon"><div class="txtwrapper3">Videos</div></a></li>
+					<li><a href="teoria_atm.html#teoria_bio" rel="external"><img src="themes/images/glyphicons_351_book_open_white.png" alt="Teoria" class="ui-li-icon"><div class="txtwrapper3">Teoria</div></a></li>
+				</ul>
+                <br/>
+			</div><!--cierro div collapsible 2-->
+		</div><!--cierro div collapsible set completo de articulacion temporomandibular-->
+<!--columna cervical-->
+<div data-role="collapsible" data-collapsed="false" data-theme="a" data-content-theme="c">
+			<h3><div class="txtwrapper2">Columna Cervical</div></h3>
+			<p>Selecciona sobre lo que quieres conocer acerca de esta area:</p>
+            <div data-role="collapsible" data-content-theme="f" style="background-image:url(themes/images/colu.png)">
+				<h3><div class="txtwrapper2">Anatomia/Biomecanica</div></h3>
+                <br/>
+				<ul data-role="listview" data-inset="true" data-theme="a">
+	<li><a href="fotos_cc.html#fotos_bio" rel="external"><img src="themes/images/glyphicons_011_camera_white.png" alt="Fotos" class="ui-li-icon"><div class="txtwrapper3">Fotos</div></a></li>
+					<li><a href="videos_cc.html#videos_bio" rel="external"><img src="themes/images/glyphicons_180_facetime_video_white.png" alt="Videos" class="ui-li-icon"><div class="txtwrapper3">Videos</div></a></li>
+					<li><a href="teoria_cc.html#teoria_bio" rel="external"><img src="themes/images/glyphicons_351_book_open_white.png" alt="Teoria" class="ui-li-icon"><div class="txtwrapper3">Teoria</div></a></li>
+				</ul>
+                <br/>
+			</div><!--cierro div collapsible 1-->       
+            <div data-role="collapsible" data-content-theme="f" style="background-image:url(themes/images/hands.png)">
+				<h3><div class="txtwrapper2">Técnicas Manuales</div></h3>
+				<br/>
+				<ul data-role="listview" data-inset="true" data-theme="a">
+	<li><a href="fotos_cc.html#fotos_movi" rel="external"><img src="themes/images/glyphicons_011_camera_white.png" alt="Fotos" class="ui-li-icon"><div class="txtwrapper3">Fotos</div></a></li>
+					<li><a href="videos_cc.html#videos_movi" rel="external"><img src="themes/images/glyphicons_180_facetime_video_white.png" alt="Videos" class="ui-li-icon"><div class="txtwrapper3">Videos</div></a></li>
+					<li><a href="teoria_cc.html#teoria_movi" rel="external"><img src="themes/images/glyphicons_351_book_open_white.png" alt="Teoria" class="ui-li-icon"><div class="txtwrapper3">Teoria</div></a></li>
+				</ul>
+                <br/>
+			</div><!--cierro div collapsible 2-->           
+		</div><!--cierro div collapsible set completo de columna cervical-->
+</div><!--cierro div content-->
+<div data-role="footer" data-position="inline" class="txtwrapper">
+<p>2013 Universidad de San Jorge. Todos los derechos reservados.</p>
+</div><!--cierro div footer-->
+</div><!--cierro div page-->
+</body>
+</html>
