@@ -27,6 +27,18 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 	font-style:italic;
 	font-style:!important;
 }
+.text_size{max-height:100%;max-width:100%; padding:9px 9px 9px 9px; 
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	background:#f2eddf;
+	
+	-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+	display:-moz-inline-block;}
+	
 object, embed, video {
 	max-width: 100%;
 }
@@ -60,7 +72,7 @@ margin-left:1px;
 /* Smartphones 320x480----------- */
 @media screen and (max-width:479px) {
 	#home	{
-background:url(images/Sin-t%C3%ADtulo-3.png) no-repeat fixed;
+background:url(images/Sin-titulo-3.png) no-repeat fixed;
 padding-top:30%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
