@@ -38,6 +38,17 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 	-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 	display:-moz-inline-block;}
+.text_size6{max-height:100%;max-width:100%; padding:9px 9px 9px 9px; 
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	background:#9C9;
+	
+	-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+	display:-moz-inline-block;}
 	
 object, embed, video {
 	max-width: 100%;
